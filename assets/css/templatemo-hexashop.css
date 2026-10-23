@@ -723,24 +723,15 @@ Men
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.3px;
-   
+     transition: all 0.3s ease;
     overflow: hidden;
 }
 
-.Off2 button {
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-     transition: all 0.3s ease;
-      transform: scale(1.08);
-    
-}
-.Off2 button:hover {
+
+.Off2:hover {
     background: #579BB1;
-   
 }
-.Off2 button:active {
+.Off2:active {
     transform: scale(1.1);
 }
 
